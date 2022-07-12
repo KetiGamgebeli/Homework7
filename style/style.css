@@ -1,0 +1,219 @@
+*{
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+  box-sizing: border-box;
+  text-decoration: none;
+}
+
+body{
+  width: 100%;
+  height: 1024px;
+  background-image: url(../img/surati.png);
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+
+header{
+  width: 100%;
+  padding: 30px;
+}
+
+header .ulmain{
+  width: 90%;
+  height: 70px;
+  display: flex;
+  justify-content: space-between;
+  align-items:center;
+  margin: 85px;
+  padding-left: 462px;
+  padding-right: 66px;
+  margin-top: 30px;
+  
+}
+
+.ulmain li, a{
+  padding: 24px 18px;
+  border-radius: 0 36px 0 36px;  
+  color: #000000;
+  font-size: 18px;
+
+}
+
+ul > :first-child a {
+  background-color: #55ad55;
+  color: #ffffff;
+}
+
+ul > :nth-child(2) { 
+  background-color:#cdcdcd;
+}
+ ul > :nth-child(3){
+  background-color:#cdcdcd;
+ }
+
+ main .aqcia{
+  width: 358px;
+  height: 138px;
+  margin-top: 40px;
+  margin-left: 1018px;
+ }
+
+ .aqcia .texti{
+  
+  text-align: center;
+  font-size: 18px;
+  margin-bottom: 12px;
+
+ }
+ .aqcia .dro{
+  font-size: 36px;
+  text-align: center;
+  
+ }
+
+ .wre{
+  width: 32px;
+  height: 32px;
+  background-color:#55ad55;
+  border-radius: 50%;
+  position: relative;
+  animation: myanim 2s infinite;
+ }
+
+ @keyframes myanim {
+  0%{top:0; left:0;}
+  25%{top:0; left: 326px;}
+  50%{top:106px; left:326px;}
+  75%{top:106px; left:0;}
+  100%{top:0; left:0;}
+ }
+
+.xekonteineri{
+  width: 1060px;
+  height: 500px;
+  margin-left: 458px;
+  margin-top: 140px;
+  display: flex;
+  justify-content: space-between;
+  align-content: center;
+  position: relative;
+  
+
+}
+.gero{
+  height: 500px;
+  width: 1px;
+  background-color: #cdcdcd;
+  margin: 0 auto;
+  
+
+}
+.pirvelifottext{
+  width: 50%;
+  height: 118px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  
+  
+}
+
+.pirvelifottext p{
+  width: 384px;
+  height: 48px;
+  color: #43ce5c;
+  font-size: 18px;
+  margin-top: -30px;
+  
+ 
+  
+}
+.pirvelifottext .fotol{
+  width: 70px;
+  height: 70px;
+  background-color: #55ad55;
+  border-radius: 0 36px 0 36px;
+  position: absolute;
+  top: 0;
+  right: 0;
+  margin-top: -30px;
+  
+}
+
+.div2{
+  width: 50%;
+  height: 118px;
+  position: absolute;
+  top: 0;
+  right: 0;
+  margin-top: 96px;
+ 
+}
+.div2 p{
+  width: 384px;
+  height: 48px;
+  font-size: 18px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  margin-left: 80px;
+
+}
+.div2 .fot2{
+  width: 70px;
+  height: 70px;
+  background-color: #cdcdcd;
+  border-radius: 0 36px 0 36px;
+  transform: rotate(90deg);
+  
+}
+.div3{
+  width: 50%;
+  height: 118px;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  margin-bottom: 154px;
+  
+}
+
+.div3 p{
+  width: 426px;
+  height: 48px;
+  font-size: 18px;
+  padding: 0;
+}
+.div3 .fot3{
+  width: 70px;
+  height: 70px;
+  background-color: #cdcdcd;
+  border-radius: 0 36px 0 36px;
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+.div4{
+  width: 50%;
+  height: 118px;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  margin-bottom: 28px;
+  
+}
+.div4 p{
+  width: 384px;
+  height: 48px;
+  font-size: 18px;
+  margin-left: 80px;
+  margin-top: -76px;
+}
+.div4 .fot4{
+  width: 70px;
+  height: 70px;
+  background-color: #cdcdcd;
+  border-radius: 0 36px 0 36px;
+  transform: rotate(90deg);
+}
