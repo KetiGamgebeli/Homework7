@@ -41,7 +41,12 @@ header .ulmain{
 }
 
 ul > :first-child a {
-  background-color: #55ad55;
+  background-color: #cdcdcd;
+  color: #000000;
+}
+
+ul > :first-child a:hover{
+  background-color: #4cc362;
   color: #ffffff;
 }
 
@@ -79,6 +84,7 @@ ul > :nth-child(2) {
   border-radius: 50%;
   position: relative;
   animation: myanim 2s infinite;
+  
  }
 
  @keyframes myanim {
@@ -98,9 +104,9 @@ ul > :nth-child(2) {
   justify-content: space-between;
   align-content: center;
   position: relative;
-  
 
 }
+
 .gero{
   height: 500px;
   width: 1px;
@@ -115,30 +121,36 @@ ul > :nth-child(2) {
   position: absolute;
   top: 0;
   left: 0;
-  
-  
 }
 
 .pirvelifottext p{
   width: 384px;
   height: 48px;
-  color: #43ce5c;
+  color: #000000;
   font-size: 18px;
   margin-top: -30px;
-  
- 
-  
+
 }
+
+.xekonteineri p:hover{
+  color: #4cc362;
+}
+
+
 .pirvelifottext .fotol{
   width: 70px;
   height: 70px;
-  background-color: #55ad55;
+  background-color: #cdcdcd;
   border-radius: 0 36px 0 36px;
   position: absolute;
   top: 0;
   right: 0;
   margin-top: -30px;
   
+}
+
+.pirvelifottext .fotol:hover{
+  background-color: #4cc362;
 }
 
 .div2{
@@ -168,6 +180,9 @@ ul > :nth-child(2) {
   transform: rotate(90deg);
   
 }
+.div2 .fot2:hover{
+  background-color: #4cc362;
+}
 .div3{
   width: 50%;
   height: 118px;
@@ -193,6 +208,9 @@ ul > :nth-child(2) {
   top: 0;
   right: 0;
 }
+.div3 .fot3:hover{
+  background-color: #4cc362;
+}
 
 .div4{
   width: 50%;
@@ -216,4 +234,8 @@ ul > :nth-child(2) {
   background-color: #cdcdcd;
   border-radius: 0 36px 0 36px;
   transform: rotate(90deg);
+}
+
+.div4 .fot4:hover{
+  background-color: #4cc362;
 }
