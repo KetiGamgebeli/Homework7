@@ -56,6 +56,27 @@ ul > :nth-child(2) {
  ul > :nth-child(3){
   background-color:#cdcdcd;
  }
+ ul > :nth-child(2):hover{
+  background-color: #4cc362;
+  color: #ffffff;
+}
+
+ul > :nth-child(3):hover{
+  background-color: #4cc362;
+  color: #ffffff;
+}
+
+ul > :nth-child(2) a:hover {
+  
+  color: #ffffff;
+}
+
+ul > :nth-child(3) a:hover{
+  
+  color: #ffffff;
+}
+
+
 
  main .aqcia{
   width: 358px;
@@ -239,3 +260,4 @@ ul > :nth-child(2) {
 .div4 .fot4:hover{
   background-color: #4cc362;
 }
+
